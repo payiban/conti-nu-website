@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-09-17T18:09:29",
+  "generated_at": "2026-10-08T15:13:52",
   "site": "conti_nu",
   "articles": [
+    {
+      "slug": "zorglabel-s01-digitale-zorg-declaratie",
+      "title": "Zorglabel S01: wat betekent digitale zorg eigenlijk voor je declaratie?",
+      "url": "https://www.conti-nu.nl/blog/zorglabel-s01-digitale-zorg-declaratie",
+      "external": false,
+      "date": "2026-10-07",
+      "category": "Declareren",
+      "summary": "Wanneer gebruik je zorglabel S01 wel en niet, wat verandert er per 2027 en levert digitale zorg een ander tarief op? De antwoorden op de drie vragen die praktijkhouders het vaakst stellen.",
+      "image_url": "",
+      "author": "Dunja Tagliola",
+      "keywords": "zorglabel S01, digitale zorg, beeldbellen, zorgprestatiemodel, ZPM, declareren ggz, e-health, 2027",
+      "linkedin_text": "Beeldbellen, online groepssessies, contact via een berichtenapp: digitale zorg hoort er in de ggz gewoon bij. Maar moet je het apart registreren, levert het een ander tarief op, en moet je straks aan een percentage voldoen? Over zorglabel S01, en wat er per 2027 verandert.",
+      "status": "gepubliceerd"
+    },
+    {
+      "slug": "groepstherapie-twee-behandelaren-wie-declareert",
+      "title": "Groepstherapie met z'n tweeën: wie declareert er eigenlijk?",
+      "url": "https://www.conti-nu.nl/blog/groepstherapie-twee-behandelaren-wie-declareert",
+      "external": false,
+      "date": "2026-10-05",
+      "category": "Declareren",
+      "summary": "Twee behandelaren, één groep. Sinds 2026 loopt de declaratie altijd via de regiebehandelaar, maar hoe dat in de praktijk werkt hangt af van één vraag: werken jullie onder één AGB-code of onder twee?",
+      "image_url": "",
+      "author": "Dunja Tagliola",
+      "keywords": "groepstherapie, groepsbehandeling, regiebehandelaar, medebehandelaar, AGB-code, declareren ggz, LVVP, Wtza, zorgprestatiemodel",
+      "linkedin_text": "Twee behandelaren. Eén groep. Acht cliënten in een kring. En dan de vraag die bijna iedere praktijk mij stelt: wie declareert er eigenlijk? Het antwoord begint niet bij het EPD, maar bij je AGB-code. En nu ben ik benieuwd: start jij binnenkort met groepsbehandeling, en loop je nu al tegen deze vraag aan?",
+      "status": "gepubliceerd"
+    },
     {
       "slug": "menzis-vragenlijst-2027-lvvp-alert",
       "title": "Let op — twee vragen in de Menzis-vragenlijst kunnen je over twee jaar duur komen te staan",
