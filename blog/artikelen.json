@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-08T15:13:52",
+  "generated_at": "2026-10-09T13:59:44",
   "site": "conti_nu",
   "articles": [
+    {
+      "slug": "praktijkdata-declaratiepartner",
+      "title": "Conti-nu declaratiepartner van Praktijkdata",
+      "url": "https://www.praktijkdata.nl/",
+      "external": true,
+      "date": "2026-10-09",
+      "category": "Declaraties & Systemen",
+      "summary": "Conti-nu Bedrijfsondersteuning is declaratiepartner van Praktijkdata, het softwarepakket voor de GGZ, het Zorgprestatiemodel en de Jeugdzorg. Werkt uw praktijk in Praktijkdata? Dan verzorgen wij de declaraties en de administratie rechtstreeks in uw eigen omgeving.",
+      "image_url": "https://www.conti-nu.nl/Assets/Praktijkdata.png",
+      "author": "Dunja Tagliola",
+      "keywords": "",
+      "linkedin_text": "",
+      "status": "gepubliceerd"
+    },
     {
       "slug": "zorglabel-s01-digitale-zorg-declaratie",
       "title": "Zorglabel S01: wat betekent digitale zorg eigenlijk voor je declaratie?",
