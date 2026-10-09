@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYHV2LSK1V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SYHV2LSK1V');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xyp3sotoki");
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mijn stappenplan — Van loondienst naar eigen praktijk | CONTI-NU Bedrijfsondersteuning</title>
+  <meta name="description" content="Jouw persoonlijke omgeving van het stappenplan Van loondienst naar eigen praktijk.">
+  <link rel="canonical" href="https://www.conti-nu.nl/kompas">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="/Assets/favicon.png" type="image/png">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.conti-nu.nl/kompas">
+  <meta property="og:title"       content="Mijn stappenplan — Van loondienst naar eigen praktijk">
+  <meta property="og:description" content="Jouw persoonlijke omgeving van het stappenplan Van loondienst naar eigen praktijk.">
+  <meta property="og:image"       content="https://www.conti-nu.nl/Assets/juichende-vrouw-768x422.jpg">
+  <meta property="og:site_name"   content="CONTI-NU Bedrijfsondersteuning">
+  <link rel="stylesheet" href="/css/style.css">
+
+<style>
+/* Stappenplan-product (starten / kompas) */
+.sp-lijst { list-style: none; padding: 0; margin: 1.5rem 0 0; display: grid; gap: .6rem; }
+.sp-lijst li { display: flex; gap: .75rem; align-items: flex-start; color: var(--text-muted); line-height: 1.6; }
+.sp-lijst li::before { content: ''; flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--orange); margin-top: .5rem; }
+.sp-lijst.neg li::before { background: var(--border); }
+.sp-fasen { counter-reset: fase; display: grid; gap: .9rem; margin-top: 2rem; }
+.sp-fase { display: grid; grid-template-columns: 44px 1fr; gap: 1rem; align-items: start; background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.1rem 1.3rem; }
+.sp-fase::before { counter-increment: fase; content: counter(fase); width: 44px; height: 44px; border-radius: 50%; background: var(--orange-pale); color: var(--orange-dark); font-weight: 700; display: grid; place-items: center; font-family: var(--font-d); }
+.sp-fase strong { display: block; color: var(--brown); margin-bottom: .2rem; }
+.sp-fase span { color: var(--text-muted); font-size: .95rem; line-height: 1.6; }
+.sp-valkuil { background: var(--orange-pale); border-left: 4px solid var(--orange); border-radius: var(--r); padding: 1.1rem 1.4rem; color: var(--brown-mid); margin-top: 2rem; }
+.sp-twee { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.sp-prijzen { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2.5rem; }
+.sp-prijs { background: var(--white); border: 2px solid var(--border); border-radius: var(--r-xl); padding: 2rem; display: flex; flex-direction: column; gap: .75rem; position: relative; }
+.sp-prijs.aanbevolen { border-color: var(--orange); box-shadow: var(--sh); }
+.sp-prijs .sp-tag { position: absolute; top: -14px; left: 2rem; background: var(--orange); color: var(--white); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .35rem .8rem; border-radius: var(--r-full); }
+.sp-prijs h3 { margin: 0; font-size: 1.3rem; color: var(--brown); }
+.sp-prijs p { color: var(--text-muted); margin: 0; line-height: 1.6; flex: 1; }
+.sp-bedrag { font-family: var(--font-d); font-size: 2.2rem; font-weight: 700; color: var(--brown); }
+.sp-bedrag small { font-size: .85rem; color: var(--text-muted); font-weight: 400; margin-left: .4rem; }
+.sp-bedrag s { color: var(--text-muted); font-size: 1.1rem; font-weight: 400; margin-right: .5rem; }
+.sp-faq { display: grid; gap: .75rem; margin-top: 2rem; }
+.sp-faq details { background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1rem 1.4rem; }
+.sp-faq summary { cursor: pointer; font-weight: 700; color: var(--brown); list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+.sp-faq summary::after { content: '+'; color: var(--orange); font-weight: 700; }
+.sp-faq details[open] summary::after { content: '–'; }
+.sp-faq p { color: var(--text-muted); margin: .75rem 0 0; line-height: 1.65; }
+.sp-over { display: grid; grid-template-columns: 240px 1fr; gap: 2.5rem; align-items: start; }
+.sp-over img { width: 100%; border-radius: var(--r-xl); box-shadow: var(--sh); }
+.sp-formulier { max-width: 560px; margin: 2rem auto 0; }
+.sp-keuze { display: grid; gap: .6rem; }
+.sp-keuze label { display: flex; gap: .8rem; align-items: center; border: 1.5px solid var(--border); border-radius: var(--r); padding: .85rem 1rem; cursor: pointer; background: var(--cream); }
+.sp-keuze label:has(input:checked) { border-color: var(--orange); background: var(--white); }
+.sp-keuze input { accent-color: var(--orange); }
+.sp-keuze .sp-k-prijs { margin-left: auto; font-weight: 700; color: var(--brown); white-space: nowrap; }
+.sp-akkoord { display: flex; gap: .7rem; align-items: flex-start; font-size: .9rem; color: var(--text-muted); line-height: 1.5; }
+.sp-akkoord input { margin-top: .25rem; accent-color: var(--orange); }
+.sp-status { margin-top: 1rem; font-size: .93rem; min-height: 1.4em; }
+.sp-status.err { color: #B3261E; }
+.sp-status.ok { color: #2F8A5B; }
+.sp-klein { font-size: .85rem; color: var(--text-muted); }
+@media (max-width: 768px) {
+  .sp-twee, .sp-prijzen, .sp-over { grid-template-columns: 1fr; }
+  .sp-over img { max-width: 240px; }
+}
+</style>
+
+<style>
+/* Kompas: de afgeschermde omgeving. Eén smalle kolom, fasen als genummerde
+   blokken, voortgang sticky onder de nav. Palet = huisstijl. */
+.kp-wrap { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; display: flex; flex-direction: column; gap: 1.6rem; }
+.kp-wrap h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.1; margin: .3rem 0 .6rem; }
+.kp-lead { color: var(--text-muted); max-width: 62ch; margin: 0; }
+.kp-bron { font-size: .85rem; color: var(--text-muted); }
+.kp-kaart { background: var(--white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2rem; }
+.kp-kaart h2 { margin-top: 0; }
+.kp-login .form-input { width: 100%; }
+.kp-progress { position: sticky; top: 72px; z-index: 5; background: var(--cream); padding: .7rem 0; border-bottom: 1px solid var(--border); }
+.kp-progress-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; font-size: .9rem; color: var(--text-muted); }
+.kp-progress-row strong { font-family: var(--font-d); font-size: 1.15rem; color: var(--brown); font-variant-numeric: tabular-nums; }
+.kp-bar { height: 8px; background: var(--orange-pale); border-radius: 99px; overflow: hidden; margin-top: .4rem; }
+.kp-bar span { display: block; height: 100%; width: 0; background: var(--orange); transition: width .3s; }
+.kp-fase { background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.3rem 1.4rem; display: flex; flex-direction: column; gap: .9rem; }
+.kp-fase-head { display: flex; gap: .9rem; align-items: flex-start; }
+.kp-num { flex: none; width: 36px; height: 36px; border-radius: 50%; background: var(--orange-pale); color: var(--orange-dark); font-family: var(--font-d); font-weight: 700; display: grid; place-items: center; }
+.kp-fase.compleet .kp-num { background: #2F8A5B; color: var(--white); }
+.kp-fase-head h2 { font-size: 1.25rem; margin: 0; }
+.kp-fase-head p { margin: .15rem 0 0; color: var(--text-muted); font-size: .9rem; }
+.kp-count { margin-left: auto; font-size: .82rem; color: var(--text-muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.kp-fase ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.kp-fase li { border-top: 1px solid var(--border); padding: .7rem 0 .4rem; }
+.kp-stap { display: flex; gap: .8rem; align-items: flex-start; cursor: pointer; }
+.kp-stap input { flex: none; width: 20px; height: 20px; margin-top: .15rem; accent-color: #2F8A5B; cursor: pointer; }
+.kp-titel { font-weight: 600; color: var(--brown); }
+li.af .kp-titel { color: var(--text-muted); text-decoration: line-through; text-decoration-color: var(--border); }
+.kp-fase details { margin: .3rem 0 0 2.05rem; font-size: .93rem; color: var(--text-muted); }
+.kp-fase summary { cursor: pointer; color: var(--orange-dark); font-weight: 600; width: fit-content; }
+.kp-fase details p { margin: .45rem 0 .3rem; max-width: 62ch; line-height: 1.6; }
+.kp-fase details b { color: var(--brown); }
+.kp-valkuil { display: block; margin-top: .5rem; padding: .5rem .8rem; border-left: 3px solid var(--orange); background: var(--orange-pale); border-radius: var(--r); color: var(--brown-mid); }
+.kp-valkuil b { color: var(--orange-dark); }
+.kp-links { display: flex; flex-wrap: wrap; gap: .4rem .5rem; margin-top: .5rem; }
+.kp-links a { font-size: .85rem; padding: .2rem .7rem; border: 1px solid var(--border); border-radius: 99px; text-decoration: none; color: var(--orange-dark); }
+.kp-links a:hover { border-color: var(--orange); }
+.kp-balk { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: center; font-size: .88rem; color: var(--text-muted); }
+.kp-balk button { font: inherit; background: none; border: 1px solid var(--border); border-radius: 99px; padding: .4rem .9rem; cursor: pointer; color: var(--brown); }
+.kp-melding { font-size: .88rem; min-height: 1.3em; }
+.kp-melding.err { color: #B3261E; }
+.kp-melding.ok { color: #2F8A5B; }
+.kp-agenda { background: var(--brown); color: var(--white); border-radius: var(--r-lg); padding: 1.3rem 1.5rem; display: flex; justify-content: space-between; gap: 1rem; align-items: center; flex-wrap: wrap; }
+.kp-agenda p { margin: 0; color: rgba(255,255,255,.8); }
+.kp-agenda strong { color: var(--white); }
+@media (prefers-reduced-motion: reduce) { .kp-bar span { transition: none; } }
+</style>
+
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav class="nav" id="nav" role="navigation" aria-label="Hoofdnavigatie">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo" aria-label="CONTI-NU - Home">
+      <img src="/Assets/favicon.png" alt="" class="nav-logo-mark" aria-hidden="true">
+      <div class="nav-logo-text">
+        <span class="nav-logo-name">CONTI-NU</span>
+        <span class="nav-logo-sub">Bedrijfsondersteuning</span>
+      </div>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/"     class="nav-link">Home</a></li>
+      <li><a href="/diensten"  class="nav-link">Diensten</a></li>
+      <li><a href="/werkwijze" class="nav-link">Werkwijze</a></li>
+      <li><a href="/over"      class="nav-link">Over</a></li>
+      <li><a href="/blog"    class="nav-link">Blog</a></li>
+      <li><a href="/reviews" class="nav-link">Reviews</a></li>
+      <li><a href="/veelgestelde-vragen" class="nav-link">Veelgestelde vragen</a></li>
+    </ul>
+    <a href="/contact" class="btn btn-primary nav-cta">Contact</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu openen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<nav class="mobile-menu" id="mobile-menu">
+  <a href="/"     class="nav-link">Home</a>
+  <a href="/diensten"  class="nav-link">Diensten</a>
+  <a href="/werkwijze" class="nav-link">Werkwijze</a>
+  <a href="/over"      class="nav-link">Over</a>
+  <a href="/blog"    class="nav-link">Blog</a>
+  <a href="/reviews" class="nav-link">Reviews</a>
+  <a href="/veelgestelde-vragen" class="nav-link">Veelgestelde vragen</a>
+  <a href="/contact"   class="btn btn-primary">Contact opnemen</a>
+</nav>
+<main>
+<div class="kp-wrap">
+
+  <header>
+    <span class="eyebrow">Contracteringskompas</span>
+    <h1>Van loondienst naar eigen praktijk</h1>
+    <p class="kp-lead" id="kp-lead">Je hebt de knoop doorgehakt: je gaat voor jezelf beginnen. Mooi! Dit stappenplan zet alle instanties, codes en certificaten in de goede volgorde. Vink af wat klaar is; je voortgang wordt bewaard en staat op al je apparaten.</p>
+  </header>
+
+  <!-- Inloggen -->
+  <section class="kp-kaart kp-login" id="kp-login" hidden>
+    <h2>Inloggen</h2>
+    <p class="text-muted">Vul het e-mailadres in waarmee je het stappenplan hebt gekocht. Je krijgt dan een inloglink per mail; een wachtwoord is niet nodig.</p>
+    <form id="kp-login-form" class="mt-md" novalidate>
+      <div class="form-group"><label class="form-label" for="kp-email">E-mailadres</label><input class="form-input" id="kp-email" type="email" autocomplete="email" required></div>
+      <button type="submit" class="btn btn-primary mt-md" id="kp-login-knop">Stuur mij een inloglink</button>
+      <div class="kp-melding mt-sm" id="kp-login-melding" role="status"></div>
+    </form>
+    <p class="sp-klein mt-md">Nog geen toegang? <a href="/starten">Bekijk het stappenplan</a>.</p>
+  </section>
+
+  <!-- Omgeving -->
+  <div id="kp-app" hidden>
+    <div class="kp-progress" aria-live="polite">
+      <div class="kp-progress-row"><span>Jouw voortgang</span><strong id="kp-pct">0%</strong></div>
+      <div class="kp-bar"><span id="kp-barfill"></span></div>
+    </div>
+    <div id="kp-agenda" class="kp-agenda mt-md" hidden>
+      <p><strong>Bij je pakket hoort een checkgesprek van 30 minuten met Dunja.</strong><br>Plan het in op een moment dat jou uitkomt; samen lopen we jouw situatie door.</p>
+      <a class="btn btn-white" id="kp-agenda-link" href="#">Checkgesprek inplannen</a>
+    </div>
+    <div id="kp-fasen" style="display:flex;flex-direction:column;gap:1rem;margin-top:1.2rem"></div>
+    <div class="kp-balk mt-md">
+      <span id="kp-wie"></span>
+      <span class="kp-melding" id="kp-opslag" role="status"></span>
+      <button type="button" id="kp-uitloggen">Uitloggen</button>
+    </div>
+    <p class="kp-bron mt-md" id="kp-bron"></p>
+  </div>
+
+  <section class="kp-kaart" id="kp-fout" hidden>
+    <h2 id="kp-fout-kop">Dat ging niet goed</h2>
+    <p class="text-muted" id="kp-fout-tekst"></p>
+    <div class="cta-actions mt-md"><a href="/starten" class="btn btn-outline">Naar het stappenplan</a> <button type="button" class="btn btn-primary" id="kp-opnieuw">Opnieuw inloggen</button></div>
+  </section>
+
+</div>
+</main>
+
+<script>
+(function(){
+  var API = "https://app.payiban.com/api/public/digitaal/conti-nu", PRODUCT = "van-loondienst-naar-eigen-praktijk", SLEUTEL = "cn_kompas_sessie";
+  var $ = function(id){ return document.getElementById(id); };
+  var sessie = null;
+  try { sessie = localStorage.getItem(SLEUTEL); } catch(e) {}
+
+  function toon(id){ ['kp-login','kp-app','kp-fout'].forEach(function(x){ $(x).hidden = (x !== id); }); }
+  function bewaarSessie(s){ sessie = s; try { if(s) localStorage.setItem(SLEUTEL, s); else localStorage.removeItem(SLEUTEL); } catch(e) {} }
+  function api(pad, opties){
+    opties = opties || {}; opties.headers = opties.headers || {};
+    if(opties.body){ opties.headers['Content-Type'] = 'application/json'; }
+    if(sessie){ opties.headers['Authorization'] = 'Bearer ' + sessie; }
+    return fetch(API + pad, opties).then(function(r){ return r.json().catch(function(){ return {}; }).then(function(b){ b._status = r.status; return b; }); });
+  }
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+
+  // ── inloggen ──
+  $('kp-login-form').addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var email = $('kp-email').value.trim(), m = $('kp-login-melding');
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ m.textContent = "Vul een geldig e-mailadres in."; m.className = "kp-melding err"; return; }
+    $('kp-login-knop').disabled = true; m.textContent = "Bezig…"; m.className = "kp-melding";
+    api('/auth/aanvragen', { method: 'POST', body: JSON.stringify({ email: email, product: PRODUCT }) }).then(function(b){
+      $('kp-login-knop').disabled = false;
+      if(b.ok){ m.textContent = "Als dit adres toegang heeft, staat er binnen een minuut een inloglink in je mail. De link werkt 30 minuten."; m.className = "kp-melding ok"; }
+      else if(b.error === 'rate_limited'){ m.textContent = "Te veel pogingen. Probeer het over een kwartier opnieuw."; m.className = "kp-melding err"; }
+      else { m.textContent = "Dat is niet gelukt. Probeer het later opnieuw of mail dunja@conti-nu.nl."; m.className = "kp-melding err"; }
+    }).catch(function(){ $('kp-login-knop').disabled = false; m.textContent = "Geen verbinding. Probeer het later opnieuw."; m.className = "kp-melding err"; });
+  });
+  $('kp-opnieuw').addEventListener('click', function(){ bewaarSessie(null); toon('kp-login'); });
+  $('kp-uitloggen').addEventListener('click', function(){
+    api('/auth/uitloggen', { method: 'POST' }).catch(function(){}).then(function(){ bewaarSessie(null); toon('kp-login'); });
+  });
+
+  // ── renderen ──
+  var voortgang = {}, wachtrij = {}, timer = null;
+  function render(d){
+    var inhoud = d.inhoud; voortgang = d.voortgang || {};
+    $('kp-lead').textContent = inhoud.intro || $('kp-lead').textContent;
+    $('kp-bron').textContent = (inhoud.bronvermelding || '') + (d.geldig_tot ? ' Je toegang is geldig tot ' + new Date(d.geldig_tot).toLocaleDateString('nl-NL') + '.' : '');
+    if(d.agenda_url){ $('kp-agenda').hidden = false; $('kp-agenda-link').href = d.agenda_url; }
+    var root = $('kp-fasen'); root.innerHTML = '';
+    (inhoud.fasen || []).forEach(function(f, fi){
+      var sec = document.createElement('section'); sec.className = 'kp-fase'; sec.id = 'fase' + (fi + 1);
+      sec.innerHTML = '<div class="kp-fase-head"><div class="kp-num">' + (fi + 1) + '</div><div><h2>' + esc(f.titel) + '</h2><p>' + esc(f.subtitel) + '</p></div><span class="kp-count"></span></div><ul></ul>';
+      var ul = sec.querySelector('ul');
+      (f.stappen || []).forEach(function(s){
+        var li = document.createElement('li'); var id = 'st-' + s.key;
+        var extra = (s.valkuil ? '<p class="kp-valkuil"><b>Valkuil:</b> ' + esc(s.valkuil) + '</p>' : '')
+                  + (s.links && s.links.length ? '<p class="kp-links">' + s.links.map(function(l){ return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.tekst) + '</a>'; }).join('') + '</p>' : '');
+        li.innerHTML = '<label class="kp-stap" for="' + id + '"><input type="checkbox" id="' + id + '" data-key="' + esc(s.key) + '"><span class="kp-titel">' + esc(s.titel) + '</span></label>'
+                     + '<details><summary>Waarom en hoe</summary>' + (s.uitleg_html || '') + extra + '</details>';
+        var cb = li.querySelector('input'); cb.checked = !!voortgang[s.key];
+        cb.addEventListener('change', function(){ voortgang[s.key] = cb.checked; wachtrij[s.key] = cb.checked; update(); plan(); });
+        ul.appendChild(li);
+      });
+      root.appendChild(sec);
+    });
+    update();
+  }
+  function update(){
+    var totaal = 0, af = 0;
+    document.querySelectorAll('.kp-fase').forEach(function(sec){
+      var boxes = Array.prototype.slice.call(sec.querySelectorAll('input')); var d = boxes.filter(function(b){ return b.checked; }).length;
+      totaal += boxes.length; af += d;
+      sec.querySelector('.kp-count').textContent = d + ' van ' + boxes.length;
+      sec.classList.toggle('compleet', boxes.length > 0 && d === boxes.length);
+      boxes.forEach(function(b){ b.closest('li').classList.toggle('af', b.checked); });
+    });
+    var pct = totaal ? Math.round(af / totaal * 100) : 0;
+    $('kp-pct').textContent = pct + '%'; $('kp-barfill').style.width = pct + '%';
+  }
+  // Vinkjes gebundeld opslaan (400 ms na de laatste klik); bij een fout blijft de wachtrij staan en proberen we het opnieuw.
+  function plan(){ clearTimeout(timer); timer = setTimeout(opslaan, 400); }
+  function opslaan(){
+    var keys = Object.keys(wachtrij); if(!keys.length) return;
+    var batch = wachtrij; wachtrij = {};
+    var m = $('kp-opslag'); m.textContent = 'Opslaan…'; m.className = 'kp-melding';
+    api('/product/' + PRODUCT + '/voortgang', { method: 'PUT', body: JSON.stringify({ stappen: batch }) }).then(function(b){
+      if(b.ok){ m.textContent = 'Opgeslagen'; m.className = 'kp-melding ok'; setTimeout(function(){ if(m.textContent === 'Opgeslagen') m.textContent = ''; }, 1500); }
+      else if(b._status === 401){ bewaarSessie(null); toon('kp-login'); }
+      else { throw b; }
+    }).catch(function(){
+      Object.keys(batch).forEach(function(k){ if(!(k in wachtrij)) wachtrij[k] = batch[k]; });
+      m.textContent = 'Niet opgeslagen, we proberen het zo opnieuw'; m.className = 'kp-melding err';
+      setTimeout(opslaan, 5000);
+    });
+  }
+
+  // ── laden ──
+  function laad(){
+    api('/product/' + PRODUCT + '/inhoud').then(function(b){
+      if(b.ok){ render(b); api('/mij').then(function(me){ if(me.ok) $('kp-wie').textContent = 'Ingelogd als ' + me.email; }).catch(function(){}); toon('kp-app'); return; }
+      if(b._status === 401){ bewaarSessie(null); toon('kp-login'); return; }
+      if(b.error === 'no_access'){ $('kp-fout-kop').textContent = 'Geen geldige toegang'; $('kp-fout-tekst').textContent = 'Dit e-mailadres heeft geen (geldige) toegang meer tot dit stappenplan. Is je toegang verlopen of heb je met een ander adres besteld? Mail dunja@conti-nu.nl, dan kijken we het na.'; toon('kp-fout'); return; }
+      $('kp-fout-kop').textContent = 'Dat ging niet goed'; $('kp-fout-tekst').textContent = 'Het stappenplan kon niet geladen worden. Probeer het later opnieuw.'; toon('kp-fout');
+    }).catch(function(){ $('kp-fout-kop').textContent = 'Geen verbinding'; $('kp-fout-tekst').textContent = 'Controleer je internetverbinding en probeer het opnieuw.'; toon('kp-fout'); });
+  }
+
+  var params = new URLSearchParams(location.search), token = params.get('t');
+  if(token){
+    history.replaceState(null, '', location.pathname);
+    api('/auth/verzilveren', { method: 'POST', body: JSON.stringify({ token: token }) }).then(function(b){
+      if(b.ok && b.sessie){ bewaarSessie(b.sessie); laad(); }
+      else { toon('kp-login'); var m = $('kp-login-melding'); m.textContent = 'Deze inloglink is verlopen of al gebruikt. Vraag hieronder een nieuwe aan.'; m.className = 'kp-melding err'; }
+    }).catch(function(){ toon('kp-login'); });
+  } else if(sessie){ laad(); }
+  else { toon('kp-login'); }
+})();
+</script>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+
+          <div><div class="footer-logo-name">CONTI-NU</div><div class="footer-logo-sub">Bedrijfsondersteuning</div></div>
+        </div>
+        <p>Bij Conti-nu Bedrijfsondersteuning ondersteunen wij zorgpraktijken binnen de GGZ en jeugdzorg bij hun administratie en declaratieprocessen.</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/company/conti-nu/" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Diensten</div>
+        <ul class="footer-links">
+          <li><a href="/diensten.html#ggz"     class="footer-link">GGZ- en jeugdzorgpraktijken</a></li>
+          <li><a href="/diensten.html#software" class="footer-link">Software &amp; Tools</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Navigatie</div>
+        <ul class="footer-links">
+          <li><a href="/"     class="footer-link">Home</a></li>
+          <li><a href="/diensten"  class="footer-link">Diensten</a></li>
+          <li><a href="/werkwijze" class="footer-link">Werkwijze</a></li>
+          <li><a href="/blog"      class="footer-link">Blog</a></li>
+          <li><a href="/reviews" class="footer-link">Reviews</a></li>
+          <li><a href="/veelgestelde-vragen" class="footer-link">Veelgestelde vragen</a></li>
+          <li><a href="/quickscan" class="footer-link">Quickscan</a></li>
+          <li><a href="/contact"   class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6 6l1.27-.64a2 2 0 0 1 2.11.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+31648870577">06-488 70 577</a>
+        </div>
+        <div class="footer-contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:info@conti-nu.nl">info@conti-nu.nl</a>
+        </div>
+        <div class="footer-contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <a href="https://maps.google.com/?q=Nijverheidsweg+5,+6662+NG+Elst" target="_blank" rel="noopener noreferrer">Nijverheidsweg 5, 6662&nbsp;NG&nbsp; Elst (Gld)</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-bottom-copy">&copy; 2026 CONTI-NU Bedrijfsondersteuning &nbsp;&middot;&nbsp; KvK 85914134 &nbsp;&middot;&nbsp; BTW NL004170486B43 &nbsp;&middot;&nbsp; Alle rechten voorbehouden.</span>
+      <div class="footer-bottom-links"><a href="/algemene-voorwaarden">Algemene voorwaarden</a>
+        <a href="/privacyverklaring">Privacyverklaring</a><a href="https://thesystem.nl" target="_blank" rel="noopener">Made by The System</a></div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="back-to-top" aria-label="Terug naar boven">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+(function(){
+  const nav=document.getElementById('nav'),btt=document.getElementById('back-to-top');
+  window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>20);btt.classList.toggle('visible',window.scrollY>400);},{passive:true});
+  const ham=document.getElementById('hamburger'),mob=document.getElementById('mobile-menu');
+  ham.addEventListener('click',()=>{const o=mob.classList.toggle('open');ham.classList.toggle('open',o);ham.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';});
+  mob.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mob.classList.remove('open');ham.classList.remove('open');ham.setAttribute('aria-expanded','false');document.body.style.overflow='';}));
+  const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');}),{threshold:0.1});
+  document.querySelectorAll('.aos,.aos-left,.aos-right,.aos-scale').forEach(el=>obs.observe(el));
+  /* Vangnet: in embedded previews (vaste-hoogte iframe, geen scroll) vuurt de
+     IntersectionObserver niet voor content onder de vouw. Reveal die kort na load
+     alsnog — geen zichtbaar effect op de live site (onder-de-vouw zie je daar pas
+     bij scrollen, en dan is 'visible' al gezet). */
+  window.addEventListener('load',function(){setTimeout(function(){document.querySelectorAll('.aos,.aos-left,.aos-right,.aos-scale').forEach(function(el){el.classList.add('visible');});},1200);});
+  btt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYHV2LSK1V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SYHV2LSK1V');
+  </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xyp3sotoki");
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bedankt voor je bestelling | CONTI-NU Bedrijfsondersteuning</title>
+  <meta name="description" content="Je bestelling van het stappenplan Van loondienst naar eigen praktijk.">
+  <link rel="canonical" href="https://www.conti-nu.nl/starten-bedankt">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="/Assets/favicon.png" type="image/png">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.conti-nu.nl/starten-bedankt">
+  <meta property="og:title"       content="Bedankt voor je bestelling">
+  <meta property="og:description" content="Je bestelling van het stappenplan Van loondienst naar eigen praktijk.">
+  <meta property="og:image"       content="https://www.conti-nu.nl/Assets/juichende-vrouw-768x422.jpg">
+  <meta property="og:site_name"   content="CONTI-NU Bedrijfsondersteuning">
+  <link rel="stylesheet" href="/css/style.css">
+
+<style>
+/* Stappenplan-product (starten / kompas) */
+.sp-lijst { list-style: none; padding: 0; margin: 1.5rem 0 0; display: grid; gap: .6rem; }
+.sp-lijst li { display: flex; gap: .75rem; align-items: flex-start; color: var(--text-muted); line-height: 1.6; }
+.sp-lijst li::before { content: ''; flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--orange); margin-top: .5rem; }
+.sp-lijst.neg li::before { background: var(--border); }
+.sp-fasen { counter-reset: fase; display: grid; gap: .9rem; margin-top: 2rem; }
+.sp-fase { display: grid; grid-template-columns: 44px 1fr; gap: 1rem; align-items: start; background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.1rem 1.3rem; }
+.sp-fase::before { counter-increment: fase; content: counter(fase); width: 44px; height: 44px; border-radius: 50%; background: var(--orange-pale); color: var(--orange-dark); font-weight: 700; display: grid; place-items: center; font-family: var(--font-d); }
+.sp-fase strong { display: block; color: var(--brown); margin-bottom: .2rem; }
+.sp-fase span { color: var(--text-muted); font-size: .95rem; line-height: 1.6; }
+.sp-valkuil { background: var(--orange-pale); border-left: 4px solid var(--orange); border-radius: var(--r); padding: 1.1rem 1.4rem; color: var(--brown-mid); margin-top: 2rem; }
+.sp-twee { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.sp-prijzen { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2.5rem; }
+.sp-prijs { background: var(--white); border: 2px solid var(--border); border-radius: var(--r-xl); padding: 2rem; display: flex; flex-direction: column; gap: .75rem; position: relative; }
+.sp-prijs.aanbevolen { border-color: var(--orange); box-shadow: var(--sh); }
+.sp-prijs .sp-tag { position: absolute; top: -14px; left: 2rem; background: var(--orange); color: var(--white); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .35rem .8rem; border-radius: var(--r-full); }
+.sp-prijs h3 { margin: 0; font-size: 1.3rem; color: var(--brown); }
+.sp-prijs p { color: var(--text-muted); margin: 0; line-height: 1.6; flex: 1; }
+.sp-bedrag { font-family: var(--font-d); font-size: 2.2rem; font-weight: 700; color: var(--brown); }
+.sp-bedrag small { font-size: .85rem; color: var(--text-muted); font-weight: 400; margin-left: .4rem; }
+.sp-bedrag s { color: var(--text-muted); font-size: 1.1rem; font-weight: 400; margin-right: .5rem; }
+.sp-faq { display: grid; gap: .75rem; margin-top: 2rem; }
+.sp-faq details { background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1rem 1.4rem; }
+.sp-faq summary { cursor: pointer; font-weight: 700; color: var(--brown); list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+.sp-faq summary::after { content: '+'; color: var(--orange); font-weight: 700; }
+.sp-faq details[open] summary::after { content: '–'; }
+.sp-faq p { color: var(--text-muted); margin: .75rem 0 0; line-height: 1.65; }
+.sp-over { display: grid; grid-template-columns: 240px 1fr; gap: 2.5rem; align-items: start; }
+.sp-over img { width: 100%; border-radius: var(--r-xl); box-shadow: var(--sh); }
+.sp-formulier { max-width: 560px; margin: 2rem auto 0; }
+.sp-keuze { display: grid; gap: .6rem; }
+.sp-keuze label { display: flex; gap: .8rem; align-items: center; border: 1.5px solid var(--border); border-radius: var(--r); padding: .85rem 1rem; cursor: pointer; background: var(--cream); }
+.sp-keuze label:has(input:checked) { border-color: var(--orange); background: var(--white); }
+.sp-keuze input { accent-color: var(--orange); }
+.sp-keuze .sp-k-prijs { margin-left: auto; font-weight: 700; color: var(--brown); white-space: nowrap; }
+.sp-akkoord { display: flex; gap: .7rem; align-items: flex-start; font-size: .9rem; color: var(--text-muted); line-height: 1.5; }
+.sp-akkoord input { margin-top: .25rem; accent-color: var(--orange); }
+.sp-status { margin-top: 1rem; font-size: .93rem; min-height: 1.4em; }
+.sp-status.err { color: #B3261E; }
+.sp-status.ok { color: #2F8A5B; }
+.sp-klein { font-size: .85rem; color: var(--text-muted); }
+@media (max-width: 768px) {
+  .sp-twee, .sp-prijzen, .sp-over { grid-template-columns: 1fr; }
+  .sp-over img { max-width: 240px; }
+}
+</style>
+
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav class="nav" id="nav" role="navigation" aria-label="Hoofdnavigatie">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo" aria-label="CONTI-NU - Home">
+      <img src="/Assets/favicon.png" alt="" class="nav-logo-mark" aria-hidden="true">
+      <div class="nav-logo-text">
+        <span class="nav-logo-name">CONTI-NU</span>
+        <span class="nav-logo-sub">Bedrijfsondersteuning</span>
+      </div>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/"     class="nav-link">Home</a></li>
+      <li><a href="/diensten"  class="nav-link">Diensten</a></li>
+      <li><a href="/werkwijze" class="nav-link">Werkwijze</a></li>
+      <li><a href="/over"      class="nav-link">Over</a></li>
+      <li><a href="/blog"    class="nav-link">Blog</a></li>
+      <li><a href="/reviews" class="nav-link">Reviews</a></li>
+      <li><a href="/veelgestelde-vragen" class="nav-link">Veelgestelde vragen</a></li>
+    </ul>
+    <a href="/contact" class="btn btn-primary nav-cta">Contact</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu openen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<nav class="mobile-menu" id="mobile-menu">
+  <a href="/"     class="nav-link">Home</a>
+  <a href="/diensten"  class="nav-link">Diensten</a>
+  <a href="/werkwijze" class="nav-link">Werkwijze</a>
+  <a href="/over"      class="nav-link">Over</a>
+  <a href="/blog"    class="nav-link">Blog</a>
+  <a href="/reviews" class="nav-link">Reviews</a>
+  <a href="/veelgestelde-vragen" class="nav-link">Veelgestelde vragen</a>
+  <a href="/contact"   class="btn btn-primary">Contact opnemen</a>
+</nav>
+<header class="page-hero">
+  <div class="page-hero-inner">
+    <span class="eyebrow">Stappenplan</span>
+    <h1 id="bd-kop">Bedankt voor je bestelling</h1>
+    <p class="lead" id="bd-lead">Even kijken hoe je betaling is verlopen…</p>
+  </div>
+</header>
+
+<main>
+<section class="section">
+  <div class="container" style="max-width:680px">
+    <div id="bd-paid" hidden>
+      <h2>Je inloglink staat in je mail</h2>
+      <p class="mt-sm">Binnen een paar minuten ontvang je een mail van Conti-nu met een persoonlijke inloglink voor je stappenplan. Zie je niets? Kijk dan ook even in je spam of ongewenste e-mail.</p>
+      <p class="mt-sm">Daarna log je in met alleen je e-mailadres: je krijgt dan steeds een nieuwe inloglink toegestuurd.</p>
+      <div class="cta-actions mt-lg">
+        <a href="/kompas" class="btn btn-primary btn-lg">Naar mijn stappenplan</a>
+      </div>
+    </div>
+    <div id="bd-open" hidden>
+      <h2>Je betaling wordt nog verwerkt</h2>
+      <p class="mt-sm">Zodra de betaling binnen is, krijg je automatisch een mail met je inloglink. Dat duurt meestal maar een paar minuten. Je hoeft niets opnieuw te doen.</p>
+      <p class="mt-sm sp-klein">Geen mail na een uur? Mail ons op <a href="mailto:dunja@conti-nu.nl">dunja@conti-nu.nl</a>, dan kijken we het voor je na.</p>
+    </div>
+    <div id="bd-mislukt" hidden>
+      <h2>De betaling is niet afgerond</h2>
+      <p class="mt-sm">Er is niets afgeschreven. Wil je het opnieuw proberen? Dat kan hieronder. Lukt het niet, mail ons dan op <a href="mailto:dunja@conti-nu.nl">dunja@conti-nu.nl</a>.</p>
+      <div class="cta-actions mt-lg">
+        <a href="/starten#bestellen" class="btn btn-primary btn-lg">Opnieuw bestellen</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<script>
+(function(){
+  var status = new URLSearchParams(location.search).get('status') || 'open';
+  var kop = document.getElementById('bd-kop'), lead = document.getElementById('bd-lead');
+  var toon = function(id){ document.getElementById(id).hidden = false; };
+  if(status === 'paid'){ lead.textContent = "Je betaling is gelukt. Je toegang staat klaar."; toon('bd-paid'); if(typeof gtag === 'function') gtag('event', 'purchase', { item_id: 'stappenplan' }); }
+  else if(status === 'canceled' || status === 'failed' || status === 'expired'){ kop.textContent = "Betaling niet afgerond"; lead.textContent = "Er is niets afgeschreven."; toon('bd-mislukt'); }
+  else { lead.textContent = "Je betaling wordt nog verwerkt."; toon('bd-open'); }
+})();
+</script>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+
+          <div><div class="footer-logo-name">CONTI-NU</div><div class="footer-logo-sub">Bedrijfsondersteuning</div></div>
+        </div>
+        <p>Bij Conti-nu Bedrijfsondersteuning ondersteunen wij zorgpraktijken binnen de GGZ en jeugdzorg bij hun administratie en declaratieprocessen.</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/company/conti-nu/" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Diensten</div>
+        <ul class="footer-links">
+          <li><a href="/diensten.html#ggz"     class="footer-link">GGZ- en jeugdzorgpraktijken</a></li>
+          <li><a href="/diensten.html#software" class="footer-link">Software &amp; Tools</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Navigatie</div>
+        <ul class="footer-links">
+          <li><a href="/"     class="footer-link">Home</a></li>
+          <li><a href="/diensten"  class="footer-link">Diensten</a></li>
+          <li><a href="/werkwijze" class="footer-link">Werkwijze</a></li>
+          <li><a href="/blog"      class="footer-link">Blog</a></li>
+          <li><a href="/reviews" class="footer-link">Reviews</a></li>
+          <li><a href="/veelgestelde-vragen" class="footer-link">Veelgestelde vragen</a></li>
+          <li><a href="/quickscan" class="footer-link">Quickscan</a></li>
+          <li><a href="/contact"   class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6 6l1.27-.64a2 2 0 0 1 2.11.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+31648870577">06-488 70 577</a>
+        </div>
+        <div class="footer-contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:info@conti-nu.nl">info@conti-nu.nl</a>
+        </div>
+        <div class="footer-contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <a href="https://maps.google.com/?q=Nijverheidsweg+5,+6662+NG+Elst" target="_blank" rel="noopener noreferrer">Nijverheidsweg 5, 6662&nbsp;NG&nbsp; Elst (Gld)</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-bottom-copy">&copy; 2026 CONTI-NU Bedrijfsondersteuning &nbsp;&middot;&nbsp; KvK 85914134 &nbsp;&middot;&nbsp; BTW NL004170486B43 &nbsp;&middot;&nbsp; Alle rechten voorbehouden.</span>
+      <div class="footer-bottom-links"><a href="/algemene-voorwaarden">Algemene voorwaarden</a>
+        <a href="/privacyverklaring">Privacyverklaring</a><a href="https://thesystem.nl" target="_blank" rel="noopener">Made by The System</a></div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="back-to-top" aria-label="Terug naar boven">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+(function(){
+  const nav=document.getElementById('nav'),btt=document.getElementById('back-to-top');
+  window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>20);btt.classList.toggle('visible',window.scrollY>400);},{passive:true});
+  const ham=document.getElementById('hamburger'),mob=document.getElementById('mobile-menu');
+  ham.addEventListener('click',()=>{const o=mob.classList.toggle('open');ham.classList.toggle('open',o);ham.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';});
+  mob.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mob.classList.remove('open');ham.classList.remove('open');ham.setAttribute('aria-expanded','false');document.body.style.overflow='';}));
+  const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');}),{threshold:0.1});
+  document.querySelectorAll('.aos,.aos-left,.aos-right,.aos-scale').forEach(el=>obs.observe(el));
+  /* Vangnet: in embedded previews (vaste-hoogte iframe, geen scroll) vuurt de
+     IntersectionObserver niet voor content onder de vouw. Reveal die kort na load
+     alsnog — geen zichtbaar effect op de live site (onder-de-vouw zie je daar pas
+     bij scrollen, en dan is 'visible' al gezet). */
+  window.addEventListener('load',function(){setTimeout(function(){document.querySelectorAll('.aos,.aos-left,.aos-right,.aos-scale').forEach(function(el){el.classList.add('visible');});},1200);});
+  btt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+})();
+</script>
+</body>
+</html>
