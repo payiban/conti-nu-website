@@ -5,7 +5,7 @@ categorie: Administratie
 samenvatting: Mijn declaratie wordt niet verzameld, want hij wordt steeds afgekeurd en ik kan niet vinden waar het aan ligt en volgens mij heb ik alles goed staan...
 auteur: Dunja Kelder
 status: concept
-trefwoorden: Zorgtraject, Zorgvraagtypering, Setting, Diagnose
+trefwoorden: zorgtraject, zorgvraagtypering, setting, diagnose, zorgprestatiemodel, ZPM, declareren, ggz
 ---
 
 "Mijn declaratie wordt niet verzameld."
@@ -14,13 +14,9 @@ trefwoorden: Zorgtraject, Zorgvraagtypering, Setting, Diagnose
 
 "Volgens mij heb ik alles goed staan. Kun je eens meekijken in het dossier?"
 
-  
-
 Ik hoor het regelmatig van praktijkhouders en meestal zit het probleem niet in de zorg zelf, maar in de gegevens aan het begin van het traject. Eén datum die net niet aansluit, en de hele declaratie loopt vast.
 
 Het maakt niet uit met welk EPD je werkt. Elk systeem controleert op deze punten, de melding heet alleen overal net iets anders. Zie het als een puzzel: leg je de hoekstukjes goed, dan valt de rest vanzelf op zijn plek.
-
-  
 
 ## 1\. Aanmelding en eerste contact
 
@@ -32,8 +28,6 @@ Het maakt niet uit met welk EPD je werkt. Elk systeem controleert op deze punten
 
 •        **Zo voorkom je het:** maak de inschrijving aan vóór of op de dag van het eerste contact.
 
-  
-
 ## 2\. De verwijzing
 
 ##   
@@ -43,8 +37,6 @@ Het maakt niet uit met welk EPD je werkt. Elk systeem controleert op deze punten
 •        **Waar gaat het mis:** de verwijsbrief is later gedateerd dan het eerste gesprek, of de AGB-code van de verwijzer ontbreekt. Let op: de verwijzer is niet altijd de huisarts. Het kan bijvoorbeeld ook een psychiater of een andere verwijzer zijn. Check daarom altijd wie de verwijzer is en of zijn of haar gegevens kloppen.
 
 •        **Zo voorkom je het:** check de verwijsbrief vóór het eerste gesprek. Is de datum te laat? Vraag dan een nieuwe verwijzing op.
-
-  
 
 ## 3\. De begindatum van het zorgtraject
 
@@ -56,8 +48,6 @@ Het maakt niet uit met welk EPD je werkt. Elk systeem controleert op deze punten
 
 •        **Zo voorkom je het:** zet de begindatum altijd gelijk aan het eerste contact, ook als je het traject later aanmaakt.
 
-  
-
 ## 4\. De regiebehandelaar
 
 ##   
@@ -67,8 +57,6 @@ Het maakt niet uit met welk EPD je werkt. Elk systeem controleert op deze punten
 •        **Waar gaat het mis:** de regiebehandelaar wordt pas later toegevoegd, of met een latere startdatum.
 
 •        **Zo voorkom je het:** leg de regiebehandelaar vast met dezelfde startdatum als het zorgtraject.
-
-  
 
 ## 5\. De setting
 
@@ -80,8 +68,6 @@ Het maakt niet uit met welk EPD je werkt. Elk systeem controleert op deze punten
 
 •        **Zo voorkom je het:** leg de setting vast met de startdatum van het zorgtraject.
 
-  
-
 ## 6\. De zorgvraagtypering
 
 ##   
@@ -91,8 +77,6 @@ Het maakt niet uit met welk EPD je werkt. Elk systeem controleert op deze punten
 •        **Waar gaat het mis:** de behandeling start al, terwijl de zorgvraagtypering nog niet is vastgelegd. Of de typering verloopt ongemerkt.
 
 •        **Zo voorkom je het:** rond de typering af in de diagnostiekfase en zet een herinnering voor de herhaling.
-
-  
 
 ## 7\. De diagnose
 
@@ -104,19 +88,13 @@ Het maakt niet uit met welk EPD je werkt. Elk systeem controleert op deze punten
 
 •        **Zo voorkom je het:** koppel de diagnose direct aan het traject zodra de diagnostiek is afgerond.
 
-  
-
 ## En als het toch misgaat?
 
 ##   
 
 Begin bij het begin. Loop deze zeven stukjes op volgorde langs, met de datum van het eerste contact als ankerpunt. In de meeste gevallen zit de fout in één van deze datums.
 
-  
-
 **Mijn tip:** leg bij elk nieuw traject eerst de hoekstukjes goed: eerste contact, zorgtraject, regiebehandelaar en setting. Pas daarna plan je de rest. Eén keer goed starten scheelt je later uren zoekwerk.
-
-  
 
 ## Liever niet zelf puzzelen?
 
@@ -124,10 +102,6 @@ Begin bij het begin. Loop deze zeven stukjes op volgorde langs, met de datum van
 
 Het mooiste moment in mijn werk is als de puzzel klopt en de declaratie wordt toegekend. Wat ik dan vooral zie, is opluchting. Want dit soort dingen geeft stress, terwijl je eigenlijk gewoon met je cliënten bezig wilt zijn.
 
-  
-
 Bij Conti-nu kijken we mee in je dossiers, zoeken we uit waar het vastloopt en zorgen we dat je declaraties weer soepel lopen.
-
-  
 
 En nu ben ik benieuwd: welke melding kom jij het vaakst tegen?
