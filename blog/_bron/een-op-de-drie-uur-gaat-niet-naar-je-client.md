@@ -3,7 +3,7 @@ titel: Eén op de drie uur gaat niet naar je cliënt
 datum: 2026-11-13
 samenvatting: Stel je je werkweek voor als drie stoelen in je behandelkamer. Op twee ervan zit een cliënt. Op de derde zit… je laptop. Dat beeld is niet overdreven. Het is precies wat de cijfers laten zien die het afgelopen jaar zijn gepubliceerd. Gemiddeld gaat ongeveer een derde van de werktijd in de zorg op aan administratie. En
 auteur: Dunja Kelder
-status: concept
+status: gepubliceerd
 ---
 
 **Eén op de drie uur gaat niet naar je cliënt**
