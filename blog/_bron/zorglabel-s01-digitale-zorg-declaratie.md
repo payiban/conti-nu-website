@@ -19,9 +19,13 @@ Zorglabel S01 is een label dat je aan een zorgcontact koppelt om aan te geven da
 
 Je gebruikt dit label bij:
 
+  
+
 ## Wanneer gebruik je S01 niet
 
 Niet elk gebruik van een app of online module is automatisch 'digitale zorg' in de zin van dit label. Je gebruikt S01 dus niet bij:
+
+  
 
 ## Geldt dit alleen voor vrijgevestigde praktijken, of ook voor instellingen?
 
