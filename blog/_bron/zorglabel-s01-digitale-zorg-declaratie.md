@@ -19,13 +19,17 @@ Zorglabel S01 is een label dat je aan een zorgcontact koppelt om aan te geven da
 
 Je gebruikt dit label bij:
 
-  
+- Een beeldbelconsult — het hele contact vindt via beeldbellen plaats.
+- Een digitale groepsbehandeling — een groepssessie via een digitaal platform.
+- Online contact waarbij echt inhoudelijk wordt behandeld, bijvoorbeeld via berichten, en niet alleen een korte update wordt uitgewisseld.
 
 ## Wanneer gebruik je S01 niet
 
 Niet elk gebruik van een app of online module is automatisch 'digitale zorg' in de zin van dit label. Je gebruikt S01 dus niet bij:
 
-  
+- Een online module die de cliënt zelfstandig doorloopt naast de gewone, fysieke sessies — dit heet een hybride vorm van e-health.
+- Een face-to-face gesprek waarin alleen het huiswerk of de voortgang van een online module wordt besproken.
+- Een kort online bericht als reactie op ingeleverd huiswerk, zonder dat dit een volwaardig digitaal consult is.
 
 ## Geldt dit alleen voor vrijgevestigde praktijken, of ook voor instellingen?
 
@@ -46,3 +50,7 @@ Hier gaat weleens iets door elkaar lopen. Er bestaat een landelijke ambitie (vas
 ## Wat is dan het voordeel om dit nu al goed te doen?
 
 Niet een hoger tarief, maar wel drie andere dingen:
+
+- Minder validatiefouten en discussie achteraf, omdat meteen duidelijk is of een consult terecht als digitaal is geregistreerd.
+- Zichtbaarheid richting je zorgverzekeraar: een praktijk die digitale zorg consequent en juist registreert, laat zien dat de basis op orde is.
+- Geen haastklus in 2027: als de uniforme definitie ingaat, hoeft er niets met terugwerkende kracht hersteld te worden.
