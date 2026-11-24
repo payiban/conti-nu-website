@@ -97,7 +97,8 @@ jobs:
       - name: Staat het online?
         run: |
           sleep 3
-          code=$(curl -s -o /tmp/blog.html -m 20 -w '%{http_code}' https://www.conti-nu.nl/blog)
+          # -L: /blog verwijst door naar /blog/ (301); zonder volgen keurde deze stap een geslaagde publicatie af.
+          code=$(curl -sL -o /tmp/blog.html -m 20 -w '%{http_code}' https://www.conti-nu.nl/blog/)
           test "$code" = "200" || { echo "::error::conti-nu.nl/blog antwoordt met $code"; exit 1; }
           nieuwste=$(python3 -c "import json;print(json.load(open('blog/artikelen.json'))['articles'][0].get('slug',''))" 2>/dev/null || true)
           if [ -n "$nieuwste" ] && ! grep -q "$nieuwste" /tmp/blog.html; then
