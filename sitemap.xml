@@ -66,10 +66,25 @@
 
 
   <url>
+    <loc>https://www.conti-nu.nl/reviews</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+
+  <url>
     <loc>https://www.conti-nu.nl/blog</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.conti-nu.nl/blog/een-op-de-drie-uur-gaat-niet-naar-je-client</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
@@ -117,14 +132,6 @@
   <url>
     <loc>https://www.conti-nu.nl/blog/visitatie-lvvp-kwaliteitscriteria</loc>
     <lastmod>2026-09-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-
-  <url>
-    <loc>https://www.conti-nu.nl/reviews</loc>
-    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
